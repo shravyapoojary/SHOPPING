@@ -1,0 +1,36 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 29rem;
+    margin: 1rem;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    background-color: rgb(202, 201, 201) ;
+}
+.cont:hover{
+    background-color: rgba(214, 213, 213, 0.952);
+}
+.item{
+  
+padding: 1rem;
+}
+.name,.detail,.price{
+    padding: 0.2rem;
+}
+
+.btn {
+    height: 2.5rem;
+    /* background: #ccc; */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 5rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .btn:hover{
+      background-color: rgb(170, 172, 172);
+  }
+  .btn i{
+      font-size: 1.7rem;
+  }
