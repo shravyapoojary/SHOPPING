@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shravyapoojary/shopping-cartstatic/css/main.66d113ed.chunk.css",
+    "main.js": "/shravyapoojary/shopping-cartstatic/js/main.160a2cc2.chunk.js",
+    "main.js.map": "/shravyapoojary/shopping-cartstatic/js/main.160a2cc2.chunk.js.map",
+    "runtime-main.js": "/shravyapoojary/shopping-cartstatic/js/runtime-main.24e50357.js",
+    "runtime-main.js.map": "/shravyapoojary/shopping-cartstatic/js/runtime-main.24e50357.js.map",
+    "static/js/2.16c9c70c.chunk.js": "/shravyapoojary/shopping-cartstatic/js/2.16c9c70c.chunk.js",
+    "static/js/2.16c9c70c.chunk.js.map": "/shravyapoojary/shopping-cartstatic/js/2.16c9c70c.chunk.js.map",
+    "index.html": "/shravyapoojary/shopping-cartindex.html",
+    "static/css/main.66d113ed.chunk.css.map": "/shravyapoojary/shopping-cartstatic/css/main.66d113ed.chunk.css.map",
+    "static/js/2.16c9c70c.chunk.js.LICENSE.txt": "/shravyapoojary/shopping-cartstatic/js/2.16c9c70c.chunk.js.LICENSE.txt",
+    "static/media/image1.76c62488.jpg": "/shravyapoojary/shopping-cartstatic/media/image1.76c62488.jpg",
+    "static/media/image2.0672e5a9.jpg": "/shravyapoojary/shopping-cartstatic/media/image2.0672e5a9.jpg",
+    "static/media/image3.b2eab5f8.jpg": "/shravyapoojary/shopping-cartstatic/media/image3.b2eab5f8.jpg",
+    "static/media/image4.b0dbddcd.jpg": "/shravyapoojary/shopping-cartstatic/media/image4.b0dbddcd.jpg",
+    "static/media/image5.96f2abd3.jpg": "/shravyapoojary/shopping-cartstatic/media/image5.96f2abd3.jpg",
+    "static/media/image6.6a72fb6a.jpg": "/shravyapoojary/shopping-cartstatic/media/image6.6a72fb6a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24e50357.js",
+    "static/js/2.16c9c70c.chunk.js",
+    "static/css/main.66d113ed.chunk.css",
+    "static/js/main.160a2cc2.chunk.js"
+  ]
+}
