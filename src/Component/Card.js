@@ -13,8 +13,8 @@ await axios.post('http://localhost:3001/cartItems',item)
              <img src={image}/>
              <div className="item">
             <p className="name"><h2>{name}</h2></p>           
-            <p className="detail">{detail}</p> 
-            <p className="price"><b>Price:{price}</b></p>
+            <p className>{detail}</p> 
+            <p><b>Price:{price}</b></p>
         <button className="btn" onClick={AddToCart}><i class="fa fa-shopping-cart" ></i></button>
             </div>
         </div>

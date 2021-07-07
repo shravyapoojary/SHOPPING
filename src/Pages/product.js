@@ -10,7 +10,7 @@ import  image6 from './Images/image6.jpg';
 const initialState = [
    {
       name:"Headphone",
-      price:"$20",
+      price:20,
       key:"1",
       image:image1,
       detail:"Lorem ipsum sit amen constructor ",
@@ -18,7 +18,7 @@ const initialState = [
    },
    {
       name:"Metal Headphone",
-      price:"$10",
+      price:10,
       key:"2",
       image:image2,
       detail:"Lorem ipsum sit amen constructor ",
@@ -26,7 +26,7 @@ const initialState = [
          },
    {
          name:"Poloroid Camera",
-         price:"$5",
+         price:5,
          key:"3",
          image:image3,
          detail:"Lorem ipsum sit amen constructor ",
@@ -34,7 +34,7 @@ const initialState = [
  },
  {
    name:"Coffee",
-   price:"$6",
+   price:6,
    key:"4",
    image:image4,
    detail:"Lorem ipsum sit amen constructor ",
@@ -42,7 +42,7 @@ const initialState = [
 },
 {
    name:"Pot Plant",
-   price:"$7",
+   price:7,
    key:"5",
    image:image5,
    detail:"Lorem ipsum sit amen constructor ",
@@ -50,7 +50,7 @@ const initialState = [
 },
 {
    name:"White Cube",
-   price:"$50",
+   price:50,
    key:"6",
    image:image6,
    detail:"Lorem ipsum sit amen constructor ",

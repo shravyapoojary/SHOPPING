@@ -17,25 +17,35 @@ const Shopping = () => {
         const delte=await axios.delete(`http://localhost:3001/cartItems/${id}`)
         LoadItems();
       }
+      let total=0;
+     const Amount=()=>{
+        for(let i=0;i<items.length;i++){
+          total=total+items[i].price;
+          
+        }
+      }
     return (
-      
+      <div>
       <div style={{
         display: "flex",
         flexWrap:"wrap"
         
       }}>
           {items.map((Item,i)=>(
-            <div className="cont">
-              <img src={Item.image}/>
-             <div className="item">
-            <p className="name"><h2>{Item.name}</h2></p>
+                <div className="cont">
+                   <img src={Item.image}/>
+                       <div className="item">
+                            <p className="name"><h2>{Item.name}</h2></p>
             
-            <p className="detail">{Item.detail}</p>
-            <p className="price"><b>Price:{Item.price}</b></p>
-            <button className="btn" onClick={()=>deleteItem(Item.id)}>Remove<i class="fa fa-shopping-cart" ></i></button>
-            </div>
-            </div>
+                             <p className="detail">{Item.detail}</p>
+                             <p className="price"><b>Price:{Item.price}</b></p>
+                               <button className="btn" onClick={()=>deleteItem(Item.id)}>Remove<i class="fa fa-shopping-cart" ></i></button>
+                        </div>
+                  </div>
+           
           ))}
+          </div>
+         <div className="Amount" onLoad={Amount()}>Total Amount:${total}</div>
         </div>
     )
 }

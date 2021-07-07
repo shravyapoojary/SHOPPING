@@ -1,11 +1,25 @@
 {
   "cartItems": [
     {
+      "name": "Coffee",
+      "image": "/static/media/image4.b0dbddcd.jpg",
+      "price": 6,
+      "detail": "Lorem ipsum sit amen constructor ",
+      "id": 1
+    },
+    {
+      "name": "White Cube",
+      "image": "/static/media/image6.6a72fb6a.jpg",
+      "price": 50,
+      "detail": "Lorem ipsum sit amen constructor ",
+      "id": 3
+    },
+    {
       "name": "Headphone",
       "image": "/static/media/image1.76c62488.jpg",
-      "price": "$20",
+      "price": 20,
       "detail": "Lorem ipsum sit amen constructor ",
-      "id": 6
+      "id": 4
     }
   ]
 }
